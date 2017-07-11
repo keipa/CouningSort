@@ -1,0 +1,41 @@
+c:\users\user\documents\visual studio 2015\Projects\VBCource\VBCource\bin\Debug\VBCource.exe.config
+c:\users\user\documents\visual studio 2015\Projects\VBCource\VBCource\bin\Debug\VBCource.exe
+c:\users\user\documents\visual studio 2015\Projects\VBCource\VBCource\bin\Debug\VBCource.pdb
+c:\users\user\documents\visual studio 2015\Projects\VBCource\VBCource\bin\Debug\VBCource.xml
+c:\users\user\documents\visual studio 2015\Projects\VBCource\VBCource\obj\Debug\VBCource.vbprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\VBCource\VBCource\obj\Debug\VBCource.Form1.resources
+c:\users\user\documents\visual studio 2015\Projects\VBCource\VBCource\obj\Debug\VBCource.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\VBCource\VBCource\obj\Debug\VBCource.vbproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\VBCource\VBCource\obj\Debug\VBCource.exe
+c:\users\user\documents\visual studio 2015\Projects\VBCource\VBCource\obj\Debug\VBCource.xml
+c:\users\user\documents\visual studio 2015\Projects\VBCource\VBCource\obj\Debug\VBCource.pdb
+D:\VBCource\VBCource\bin\Debug\VBCource.exe.config
+D:\VBCource\VBCource\obj\Debug\VBCource.exe
+D:\VBCource\VBCource\obj\Debug\VBCource.xml
+D:\VBCource\VBCource\obj\Debug\VBCource.pdb
+D:\VBCource\VBCource\bin\Debug\VBCource.exe
+D:\VBCource\VBCource\bin\Debug\VBCource.pdb
+D:\VBCource\VBCource\bin\Debug\VBCource.xml
+D:\VBCource\VBCource\obj\Debug\VBCource.vbprojResolveAssemblyReference.cache
+D:\VBCource\VBCource\obj\Debug\VBCource.AboutProgram.resources
+D:\VBCource\VBCource\obj\Debug\VBCource.Form1.resources
+D:\VBCource\VBCource\obj\Debug\VBCource.Resources.resources
+D:\VBCource\VBCource\obj\Debug\VBCource.vbproj.GenerateResource.Cache
+D:\VBCource\VBCource\obj\Debug\VBCource.AboutAuthor.resources
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\bin\Debug\VBCource.exe.config
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\bin\Debug\VBCource.exe
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\bin\Debug\VBCource.pdb
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\bin\Debug\VBCource.xml
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.vbprojResolveAssemblyReference.cache
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.AboutAuthor.resources
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.AboutProgram.resources
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.Form1.resources
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.Resources.resources
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.vbproj.GenerateResource.Cache
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.exe
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.xml
+C:\Users\nikit\Documents\ВОЕНКА - Горовенко\10 - Горовенко\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.pdb
+D:\setup\VBCource (VB.NET)\VBCource\bin\Debug\VBCource.exe.config
+D:\setup\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.exe
+D:\setup\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.xml
+D:\setup\VBCource (VB.NET)\VBCource\obj\Debug\VBCource.pdb
