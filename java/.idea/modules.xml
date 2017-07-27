@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/gorovenko_java_10.iml" filepath="$PROJECT_DIR$/gorovenko_java_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Counting_Sort_Java.iml" filepath="$PROJECT_DIR$/Counting_Sort_Java.iml" />
     </modules>
   </component>
 </project>

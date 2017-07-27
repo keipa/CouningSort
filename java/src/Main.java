@@ -10,8 +10,6 @@ import java.util.*;
 
 public class Main extends JFrame {
 
-    private static final int ELEMENT_COUNT = 1000;
-
     private JPanel panel;
     private JList<Integer> rawDataList;
     private JList<Integer> sortedDataList;
@@ -26,21 +24,14 @@ public class Main extends JFrame {
     private JButton saveButton;
     private JLabel sortTimeLabel;
     private JButton exitButton;
+    private JTextField nElementCountTextField;
 
     private DefaultListModel<Integer> rawDataModel = new DefaultListModel<>();
     private DefaultListModel<Integer> sortedDataModel = new DefaultListModel<>();
 
-    Main(Start start) {
+    Main() {
         setTitle("Сортировка числовых данных методом подсчета");
         setContentPane(panel);
-        setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
-        addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent evt) {
-                Main.this.setVisible(false);
-                start.setVisible(true);
-            }
-        });
         pack();
         setVisible(true);
 
@@ -53,6 +44,9 @@ public class Main extends JFrame {
 
         sortButton.addActionListener((ActionEvent e) -> {
             int[] array = new int[rawDataModel.getSize()];
+            if (array.length == 0) {
+                return;
+            }
             for (int i = 0; i < array.length; i++) {
                 array[i] = rawDataModel.get(i);
             }
@@ -62,7 +56,7 @@ public class Main extends JFrame {
             } else {
                 countingSort(array, false);
             }
-            long elapsedTimeMilliseconds = (System.nanoTime() - startNanoTime) / 1000;
+            long elapsedTimeMilliseconds = (System.nanoTime() - startNanoTime) / 10000;
             sortedDataModel.clear();
             for (int i = 0; i < array.length; i++) {
                 sortedDataModel.addElement(array[i]);
@@ -71,8 +65,15 @@ public class Main extends JFrame {
         });
         generateRawButton.addActionListener((ActionEvent e) -> {
             Random random = new Random();
-            for (int i = 0; i < ELEMENT_COUNT; i++) {
-                rawDataModel.addElement(random.nextInt(ELEMENT_COUNT));
+            int n;
+            try {
+                n = Integer.parseInt(nElementCountTextField.getText());
+            } catch (NumberFormatException error) {
+                return;
+            }
+            rawDataModel.clear();
+            for (int i = 0; i < n; i++) {
+                rawDataModel.addElement(random.nextInt(n) + 1);
             }
         });
         resetButton.addActionListener((ActionEvent e) -> {
@@ -101,35 +102,23 @@ public class Main extends JFrame {
     }
 
     private static void countingSort(int[] arr, boolean isAscending) {
-        int[] aux = new int[arr.length];
+        int k = findMaxInArray(arr);
+        int[] zeroArray = new int[k];
+        int n = arr.length;
 
-        int min = arr[0];
-        int max = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] < min) {
-                min = arr[i];
-            } else if (arr[i] > max) {
-                max = arr[i];
+        for (int i = 0; i < n; i++) {
+            zeroArray[arr[i] - 1] = zeroArray[arr[i] - 1] + 1;
+        }
+
+        int b = 0;
+        for (int j = 0; j < k; j++) {
+            for (int i = 0; i < zeroArray[j]; i++) {
+                arr[b] = j + 1;
+                b = b + 1;
             }
         }
 
-        int[] counts = new int[max - min + 1];
-
-        for (int i = 0;  i < arr.length; i++) {
-            counts[arr[i] - min]++;
-        }
-
-        counts[0]--;
-        for (int i = 1; i < counts.length; i++) {
-            counts[i] = counts[i] + counts[i-1];
-        }
-        for (int i = arr.length - 1; i >= 0; i--) {
-            aux[counts[arr[i] - min]--] = arr[i];
-        }
-
-        System.arraycopy( aux, 0, arr, 0, aux.length );
-
-        if (!isAscending) {
+        if (isAscending == false) {
             arr = reverseArray(arr);
         }
     }
@@ -156,5 +145,8 @@ public class Main extends JFrame {
         return max;
     }
 
-
+    public static void main(String[] args) {
+        Main main = new Main();
+        main.setVisible(true);
+    }
 }
